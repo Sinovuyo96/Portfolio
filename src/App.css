@@ -464,6 +464,21 @@ MOBILE
     border: 1px solid rgb(0, 0, 196);
   }
 
+  .ul{
+    text-decoration: none;
+    text-decoration-color: none;
+    text-emphasis: none;
+  
+  
+  }
+
+  .nav{
+    text-decoration-color: none;
+    text-emphasis: none;
+    text-decoration: none;
+    
+  }
+
   .form> .button{
     padding: 10px;
     border: none;
