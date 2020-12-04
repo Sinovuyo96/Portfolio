@@ -8,7 +8,7 @@ return (
 <div className="condiv">
 <h1 className="subtopic">My Education</h1>
 <Widecard title="Pakamani | SSS" where="Pakamani Senior Secondary School" from="2013" to="2015"/>
-<Widecard title="NDiploma Information Technology" where="WSU University" from="February 2016" to="November 2018"/>
+<Widecard title="National Diploma:Information Technology" where="Walter Sisulu University University" from="February 2016" to="November 2018"/>
 
 
 <h1 className="subtopic">Certification</h1>
