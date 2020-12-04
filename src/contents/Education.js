@@ -11,10 +11,10 @@ return (
 <Widecard title="Pakamani | SSS" where="Pakamani Senior Secondary School" from="2013" to="2015"/>
 
 <h1 className="subtopic">Certification</h1>
-<Widecard title="CyberSecurity" where="Online Exam" from="june 2019" to=""/>
+
 <Widecard title="AWS | Cloud Practitioner" where="Online Exam" from="02/03/2020" to="02/03/2023"/>
 <Widecard title="AWS | Solutions Architecture Associate " where="Online Exam" from="23/11/2020" to="23/11/2023"/>
-
+<Widecard title="CyberSecurity" where="Online Exam" from="june 2019" to=""/>
 </div>
 )
 
