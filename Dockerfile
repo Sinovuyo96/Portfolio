@@ -1,14 +1,19 @@
 FROM node
 
 # Create app directory
-WORKDIR /usr/src/
+WORKDIR /usr/src/docker-react-sample
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY App.js /var/www/html
-COPY Index.js /var/www/html
-# COPY package*.json ./
+# COPY App.js /var/www/html
+# COPY Index.js /var/www/html
+COPY package*.json ./
+
+RUN npm install
+
+# Bundle app source
+COPY . .
 
 
 # If you are building your code for production
@@ -18,4 +23,4 @@ COPY Index.js /var/www/html
 ADD . .
 
 EXPOSE 8080
-CMD node server.js
+CMD ["npm", "start"]
