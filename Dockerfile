@@ -1,7 +1,7 @@
 FROM node
 
 # Create app directory
-WORKDIR /usr/src/docker-react-sample
+WORKDIR /usr/src/portfolio
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
