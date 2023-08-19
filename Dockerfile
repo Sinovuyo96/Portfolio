@@ -13,7 +13,7 @@ ADD package.json /usr/src/app/package.json
 
 RUN npm install --package-lock-only
 RUN npm install
-RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+# RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 RUN . ~/.nvm/nvm.sh
 # RUN nvm install 15.0.0
 RUN node -e "console.log('Running Node.js ' + process.version)"
