@@ -10,15 +10,12 @@ return (
 <h1>I'm Sinovuyo Solani</h1>
 <h3>Front-End <u>Developer</u> | UX/UI <u>Designer</u></h3>
 <br></br>
-<p className = "aboutWild" >I am an Aspiring Web Developer, I decided to join the Front-End Stream becuse of passion I have for Good Looking Websites.
-I have always had a passion for Web Development since ages. 
+<p className = "aboutWild" >I am a Platform Engineer with experience in AWS Support role, working with multiple team that are migrating to AWS. 
 
-I have embarked into different fields in Tech, as I hold a Diploma 
-in Information Technology(Communication Networks) from Walter Sisulu University.
+I hold a Diploma 
+in Information Technology(Communication Networks) and Advanced Diploma.
 
- I hold Certificate(s) in Cisco CyberSecurity, AWS Cloud Practitioner. I still wanna 
-go on Learning as IT industry is an ever changing/innovative Career. I have worked on my Projects using JavaScript,React JS, CSS and HTML to create functiona
-Websites, with Good UI|UX.
+ I hold Certificate(s) in AWS as achievement of my work and I am a good at working with teams to support production applications used globally.
 </p>
 </div>
 )
