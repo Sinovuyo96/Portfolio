@@ -15,7 +15,6 @@ jobs:
       - name: containerize application
         run: |
             pwd
-            cd Docker
             docker build .
             docker build -t portfolio .
             docker images
