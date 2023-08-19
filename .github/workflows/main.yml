@@ -28,7 +28,7 @@ jobs:
         run: |
           aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 238346160346.dkr.ecr.us-east-1.amazonaws.com
           docker build -t portfolio .
-          docker push 238346160346.dkr.ecr.us-east-1.amazonaws.com/portfolio:latest
+          docker image ps
         # run: |
         #     pwd
         #     docker build .
