@@ -3,7 +3,7 @@ const dynamoDB = new AWS.DynamoDB();
 const params = {
   TableName: 'portfolio-db',
   Key: {
-    'PrimaryKeyName': { S: 'PrimaryKeyValue' }
+    'PrimaryKeyName': { S: 'UserID' }
   }
 };
 
