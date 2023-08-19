@@ -13,11 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: containerize application
-        run: |
-            pwd
-            docker build .
-            docker build -t portfolio .
-            docker images
+        # run: |
+        #     pwd
+        #     docker build .
+        #     docker build -t portfolio .
+        #     docker images
             
 #       - name: Set AWS credentials
 #         run: |
