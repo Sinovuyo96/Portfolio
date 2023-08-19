@@ -10,7 +10,7 @@ WORKDIR /usr/src/portfolio
 COPY package*.json ../
 ADD package.json /usr/src/app/package.json
 # RUN npm install react-scripts@3.4.3 -g --silent
-
+RUN npm install aws-sdk
 RUN npm install --package-lock-only
 RUN npm install
 # RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
